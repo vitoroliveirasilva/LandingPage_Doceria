@@ -33,12 +33,23 @@ header {
 }
 
 /* Logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .nav-logo h1 {
     color: var(--text-color);
     margin: 0;
     font-size: 24px;
     cursor: pointer;
     margin: .8rem 0;
+}
+
+.nav-logo img {
+    width: 2rem;
+    padding: .5rem;
 }
 
 /* Lista de navegação */
